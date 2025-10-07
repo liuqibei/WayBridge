@@ -1,0 +1,10 @@
+{
+    "clangd.path": "clangd",
+    "clangd.arguments": [
+        "--header-insertion=never",
+        "--completion-style=detailed",
+        "--pch-storage=memory",
+        "--compile-commands-dir=${workspaceFolder}/out"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled"
+}
